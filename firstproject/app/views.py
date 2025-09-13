@@ -75,6 +75,8 @@ def home(request):
 
 
 
+def add(request):
+    return render(request, "lang.html")
 
 
 
